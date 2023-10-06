@@ -23,8 +23,10 @@ function nextPage(currentPage) {
 
 function loadEndPageContent() {
   instructions = {
-    "Firefox" : `<p>FastForward is available on the addons.mozilla.org!</p>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/">Install FastForward</a>`,
+    "Firefox" : `<p>FastForward is available on addons.mozilla.org!</p>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/fastforwardteam/">Install FastForward</a><br>
+    <p>You can also click the Direct Install button to skip visiting addons.mozilla.org!</p>
+    <a href="https://addons.mozilla.org/firefox/downloads/file/4171126/fastforwardteam-0.2310.xpi">Direct Install</a>`,
 
     "Edge" : `<p>FastForward is available on the Microsoft Edge Addons Store!</p>
     <a href="https://microsoftedge.microsoft.com/addons/detail/FastForward/ldcclmkclhomnpcnccgbgleikchbnecl/">Install FastForward</a>`,
